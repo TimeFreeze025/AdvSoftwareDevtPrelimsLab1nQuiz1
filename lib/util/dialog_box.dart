@@ -29,6 +29,9 @@ class DialogBox extends StatelessWidget {
                 hintText: 'Add a new task',
               ),
             ),
+            const SizedBox(
+              height: 10,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
